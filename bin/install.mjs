@@ -20,8 +20,7 @@ if (process.argv.length < 3) {
 const projectName = process.argv[2];
 const currentPath = process.cwd();
 const projectPath = path.join(currentPath, projectName);
-// TODO: change to your boilerplate repo
-const git_repo = "https://github.com/programonaut/simple-ts-app.git";
+const git_repo = "https://github.com/fabricior0cha/boilerplate-ms.git";
 
 // create project directory
 if (fs.existsSync(projectPath)) {
